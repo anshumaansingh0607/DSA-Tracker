@@ -1,0 +1,180 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e6f0ff, #fefeff);
+  color: #222;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+.App {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+/* Header */
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.app-header h1 {
+  font-size: 2.2rem;
+  color: #1976d2;
+}
+
+.app-header h3 {
+  font-weight: 500;
+  color: #4caf50;
+  margin-top: 10px;
+}
+
+/* Goal */
+.goal-section {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.goal-section input {
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 80px;
+  text-align: center;
+}
+
+.progress-bar {
+  height: 12px;
+  background-color: #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.4s ease;
+}
+
+/* Form Section */
+.form-section {
+  margin: 25px 0;
+  padding: 20px;
+  background: #f6faff;
+  border-radius: 10px;
+  border: 1px solid #d9e4f5;
+}
+
+/* Filter */
+.filter-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filter-section select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  background: white;
+}
+
+/* Logs */
+.log-section {
+  margin-top: 30px;
+}
+
+.sort-toggle {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sort-toggle:hover {
+  background-color: #1259a5;
+}
+
+.log-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.log-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f3f4;
+  border-left: 5px solid #2196f3;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
+
+.log-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.log-card button {
+  background: none;
+  border: none;
+  color: #e53935;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.clear-button {
+  margin-top: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.clear-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Chart */
+.chart-section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.empty-text {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin-top: 20px;
+}
